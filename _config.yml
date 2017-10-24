@@ -1,8 +1,8 @@
 # Site settings
-title: Blog # 你的博客名字，可以定义修订
+title: p2po2p's Blog # 你的博客名字，可以定义修订
 header-img: "img/green.jpg"
 tagline: "cn"  
-description: "这是我的博客"  # 一句话描述你的博客
+description: "岂能尽如人意，但求无愧我心"  # 一句话描述你的博客
 baseurl: ""
 url: "https://p2po2p.github.io/"  # 此处填写你的博客地址 
 
@@ -18,10 +18,10 @@ favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
 twitter_username: 
-github_username: 
+github_username: p2po2p
 facebook_username: 
 weibo_username: 
-zhihu_username: 
+zhihu_username: p2po2p
 
 # Build settings  
 # use Github Flavored Markdown !important  
