@@ -3,7 +3,7 @@ layout: post
 title: Hello World
 date: 2017-10-24
 categories: blog
-tags: [hello,world]
+tags: [helloWorld]
 description: 文章金句。
 ---
 
