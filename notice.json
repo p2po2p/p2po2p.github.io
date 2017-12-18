@@ -1,0 +1,12 @@
+﻿{
+    "result": 0,
+    "description": "notice",
+    "data": {
+        "Noticeflag": "true",
+        "ValidTimeBegin": "1509516000",
+        "ValidTimeEnd": "1509523200",
+        "Content": "北京时间2017-11-01 14:00:00 EZCloud服务器扩容完成，带来影响与不便，敬请谅解，谢谢！",
+        "Content_zh": "北京时间2017-11-01 14:00:00 EZCloud服务器扩容完成，带来影响与不便，敬请谅解，谢谢！",
+        "Content_en": "北京时间2017-11-01 14:00:00 EZCloud服务器扩容完成，带来影响与不便，敬请谅解，谢谢！"
+    }
+}
