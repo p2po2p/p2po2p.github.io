@@ -14,9 +14,11 @@ description: Android手机ndk-stack常用命令
 
 ## 常用相关命令
 adb logcat | ndk-stack -sym armeabi-v7a/
+
 adb logcat | ndk-stack -sym /data/data/com.uniview.app.smb.phone.en.ezview/lib/libNDPlayer.so
 
-- 先获取日志再分析\n
+- 先获取日志再分析
+
 ndk-stack -sym D:/obj/local/armeabi -dump d:/sdklog/1.log
 
 
