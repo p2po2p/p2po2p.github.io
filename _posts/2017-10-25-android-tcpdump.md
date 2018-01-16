@@ -15,6 +15,7 @@ description: Android手机端抓包软件
 ## 网上方案
 - 手机端使用tcpdum进行抓包
 - 需要在手机端使用tcpdump，所以需要[下载该文件](http://oybmb6yjg.bkt.clouddn.com/tcpdump)
+- 将该文件放入 /system/xbin目录下，并赋予chmod 777权限
 - 手机端需要获取到root权限
 
 
