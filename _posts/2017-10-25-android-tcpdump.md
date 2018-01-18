@@ -20,8 +20,9 @@ description: Android手机端抓包软件
 
 
 - 代码地址：[https://github.com/p2po2p/tcpdump](https://github.com/p2po2p/tcpdump)
+- apk版本下载地址：[https://fir.im/capture](https://fir.im/capture)
 
-![](http://oybmb6yjg.bkt.clouddn.com/%E6%89%8B%E6%9C%BA%E7%AB%AF%E6%8A%93%E5%8C%85%E6%88%AA%E5%9B%BE.png)
+![](http://oybmb6yjg.bkt.clouddn.com/%E6%89%8B%E6%9C%BA%E7%AB%AF%E6%8A%93%E5%8C%85%E6%88%AA%E5%9B%BE2.png)
 
 
 ## 相关命令
