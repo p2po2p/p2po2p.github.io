@@ -12,7 +12,7 @@ description: JNI侧YUV数据写入文件
 
 写入前打印下宽高，用于yuv播放器播放
 
-[yuv播放期下载](http://www.yuvplayer.com/)
+[yuv播放器下载](http://www.yuvplayer.com/)
 
 LOGE("hqr--- w[%d] h[%d]",pPictureData->u32PicWidth,pPictureData->u32PicHeight);
 
