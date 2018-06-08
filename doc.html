@@ -4,7 +4,7 @@ description: "熟能生巧"
 ---
 
 {% for doc in paginator.docs %}
-<div class="doc-preview">
+<div class="post-preview">
     <a href="{{ doc.url | prepend: site.baseurl }}">
         <h2 class="doc-title">
             {{ doc.title }}
@@ -18,7 +18,7 @@ description: "熟能生巧"
             {{ doc.content | strip_html | truncate:150 }}
         </div>
     </a>
-    <p class="doc-meta">doced by {% if doc.author %}{{ doc.author }}{% else %}{{ site.title }}{% endif %} on {{ doc.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Posted by {% if doc.author %}{{ doc.author }}{% else %}{{ site.title }}{% endif %} on {{ doc.date | date: "%B %-d, %Y" }}</p>
 </div>
 
 <hr>
