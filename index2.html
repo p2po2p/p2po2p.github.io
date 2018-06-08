@@ -1,0 +1,41 @@
+---
+layout: page
+description: "熟能生巧"
+---
+
+{% for doc in paginator.docs %}
+<div class="doc-preview">
+    <a href="{{ doc.url | prepend: site.baseurl }}">
+        <h2 class="doc-title">
+            {{ doc.title }}
+        </h2>
+        {% if doc.subtitle %}
+        <h3 class="doc-subtitle">
+            {{ doc.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="doc-content-preview">
+            {{ doc.content | strip_html | truncate:150 }}
+        </div>
+    </a>
+    <p class="doc-meta">doced by {% if doc.author %}{{ doc.author }}{% else %}{{ site.title }}{% endif %} on {{ doc.date | date: "%B %-d, %Y" }}</p>
+</div>
+
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer docs</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older docs &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
