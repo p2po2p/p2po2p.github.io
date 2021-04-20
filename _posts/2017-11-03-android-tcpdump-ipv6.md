@@ -50,5 +50,5 @@ description: Android手机连接ipv6网络时，使用tcpdump抓包
 ```
 5.问题复现后，同时按Ctrl+C 停止抓包；键入exit后按Enter退出
 
-6.adb pull /sdcard/capture.pcap D:\\
+6.adb pull /sdcard/capture.pcap D:\\  
   生成的文件输出到电脑D盘
